@@ -1,6 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
-using PrimeTween;
+using System.Collections;
 
 public class Card : MonoBehaviour
 {
@@ -13,9 +13,17 @@ public class Card : MonoBehaviour
 
     public CardsController controller;
 
+    private void Start()
+    {
+        if (hiddenIconSprite != null)
+        {
+            iconImage.sprite = hiddenIconSprite;
+        }
+    }
+
     public void OnCardClick()
     {
-       // controller.SetSelected(this);
+        controller.SetSelected(this);
     }
 
     public void SetIconSprite(Sprite sp)
@@ -25,18 +33,49 @@ public class Card : MonoBehaviour
 
     public void Show()
     {
-        Tween.Rotation(transform, new Vector3(0f, 180f, 0f), 0.2f);
-        Tween.Delay(0.1f, () => iconImage.sprite = IconSprite); // corregido
-        isSeleceted = true;
+        StartCoroutine(ShowCard());
     }
 
     public void Hide()
     {
-        Tween.Rotation(transform, new Vector3(0f, 0f, 0f), 0.2f);
-        Tween.Delay(0.1f, () =>
+        StartCoroutine(HideCard());
+    }
+
+    private IEnumerator ShowCard()
+    {
+        float duration = 0.2f;
+        float elapsed = 0f;
+        Quaternion startRot = transform.rotation;
+        Quaternion endRot = Quaternion.Euler(0f, 180f, 0f);
+
+        while (elapsed < duration)
         {
-            iconImage.sprite = hiddenIconSprite;
-            isSeleceted = false;
-        });
+            transform.rotation = Quaternion.Lerp(startRot, endRot, elapsed / duration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        transform.rotation = endRot;
+
+        iconImage.sprite = IconSprite;
+        isSeleceted = true;
+    }
+
+    private IEnumerator HideCard()
+    {
+        float duration = 0.2f;
+        float elapsed = 0f;
+        Quaternion startRot = transform.rotation;
+        Quaternion endRot = Quaternion.Euler(0f, 0f, 0f);
+
+        while (elapsed < duration)
+        {
+            transform.rotation = Quaternion.Lerp(startRot, endRot, elapsed / duration);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+        transform.rotation = endRot;
+
+        iconImage.sprite = hiddenIconSprite;
+        isSeleceted = false;
     }
 }

@@ -176,10 +176,10 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 450, y: 450}
+  m_CellSize: {x: 100, y: 100}
   m_Spacing: {x: 30, y: 30}
   m_Constraint: 1
-  m_ConstraintCount: 2
+  m_ConstraintCount: 5
 --- !u!1 &790631686
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,6 +213,8 @@ MonoBehaviour:
   - {fileID: 9013625412534437685, guid: 6196f4289cb084c4cb98bbb98fef77c0, type: 3}
   - {fileID: -1996052501034977512, guid: 71a7ffd63ca181a4d827c14b1abb093e, type: 3}
   - {fileID: 5682367519920018928, guid: ea04ff44758c5904fa0d9e688f9c06c9, type: 3}
+  - {fileID: -9003808351581127688, guid: d74c7ecd698cf364186e3a7cdfe6cd00, type: 3}
+  - {fileID: 2063537249330887798, guid: 9867e9c00942e734ebc589295d5d6509, type: 3}
   cardsPrefab: {fileID: 906409205}
   gridTransform: {fileID: 489729415}
 --- !u!4 &790631688
@@ -403,28 +405,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1208919599 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1922028682539100852, guid: c72721b7f17e4734a8d72e5abdd6aac9, type: 3}
-  m_PrefabInstance: {fileID: 3283807846599624445}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1208919601
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1208919599}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f8d2706caf7ae345b91fda12768f0d5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  iconImage: {fileID: 906409203}
-  hiddenIconSprite: {fileID: 0}
-  IconSprite: {fileID: -1996052501034977512, guid: 71a7ffd63ca181a4d827c14b1abb093e, type: 3}
-  isSeleceted: 0
-  controller: {fileID: 790631687}
 --- !u!1 &1369764037
 GameObject:
   m_ObjectHideFlags: 0
@@ -615,7 +595,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -777,7 +757,8 @@ PrefabInstance:
       value: Card
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 1922028682539100852, guid: c72721b7f17e4734a8d72e5abdd6aac9, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 6218697173977790478, guid: c72721b7f17e4734a8d72e5abdd6aac9, type: 3}
@@ -786,9 +767,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6218697173977790478, guid: c72721b7f17e4734a8d72e5abdd6aac9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 906409206}
-    - targetCorrespondingSourceObject: {fileID: 1922028682539100852, guid: c72721b7f17e4734a8d72e5abdd6aac9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1208919601}
   m_SourcePrefab: {fileID: 100100000, guid: c72721b7f17e4734a8d72e5abdd6aac9, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
