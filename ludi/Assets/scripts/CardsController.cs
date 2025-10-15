@@ -35,7 +35,7 @@ public class CardsController : MonoBehaviour
 
         ShuffleSprites(spritePairs);   
     }
-    /*
+    
     public void SetSelected(Card card)
     {
         if (card.isSeleceted == false)
@@ -77,7 +77,7 @@ public class CardsController : MonoBehaviour
             a.Hide();
             b.Hide();
         }
-    }*/
+    }
 
     void CreateCards()
     {

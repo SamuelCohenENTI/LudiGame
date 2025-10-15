@@ -23,7 +23,7 @@ public class Card : MonoBehaviour
         IconSprite = sp;
     }
 
-   /* public void Show()
+    public void Show()
     {
         Tween.Rotation(transform, new Vector3(0f, 180f, 0f), 0.2f);
         Tween.Delay(0.1f, () => iconImage.sprite = IconSprite); // corregido
@@ -38,5 +38,5 @@ public class Card : MonoBehaviour
             iconImage.sprite = hiddenIconSprite;
             isSeleceted = false;
         });
-    }*/
+    }
 }
