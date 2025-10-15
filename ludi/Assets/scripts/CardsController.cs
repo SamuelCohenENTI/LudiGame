@@ -112,7 +112,7 @@ public class CardsController : MonoBehaviour
     {
         for (int i = spriteList.Count - 1; i > 0; i--)
         {
-            int randomIndex = Random.Range(0, i+1 );
+            int randomIndex = Random.Range(0, i );
             Sprite temp = spriteList[i];
             spriteList[i] = spriteList[randomIndex];
             spriteList[randomIndex] = temp;

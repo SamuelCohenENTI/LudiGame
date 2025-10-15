@@ -266,7 +266,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   iconImage: {fileID: 906409203}
-  hiddenIconSprite: {fileID: 0}
+  hiddenIconSprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
   IconSprite: {fileID: 0}
   isSeleceted: 0
   controller: {fileID: 790631687}
