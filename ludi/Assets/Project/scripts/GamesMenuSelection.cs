@@ -3,8 +3,14 @@ using UnityEngine.SceneManagement;
 
 public class GamesMenuSelection : MonoBehaviour
 {
-    public void LoadMapScene()
+    public void LoadScene(string sceneName)
     {
-        SceneManager.LoadScene("MapGame");
+        SceneManager.LoadScene(sceneName);
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
 }
