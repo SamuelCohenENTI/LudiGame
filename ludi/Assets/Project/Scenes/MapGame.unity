@@ -561,8 +561,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269.36002, y: -139.68}
-  m_SizeDelta: {x: 185.12, y: 126.39}
+  m_AnchoredPosition: {x: 133.5, y: 160.9}
+  m_SizeDelta: {x: 166.43, y: 105.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &733620858
 MonoBehaviour:
@@ -614,7 +614,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf97904bc6dc84844b1e026acc7e384d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 2077878763}
   targetTag: Pirineus
 --- !u!1 &961389791
 GameObject:
@@ -651,8 +650,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -271.6, y: 155}
-  m_SizeDelta: {x: 180.65, y: 143.83}
+  m_AnchoredPosition: {x: 104.7, y: -71.125}
+  m_SizeDelta: {x: 166.43, y: 105.18}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &961389793
 MonoBehaviour:
@@ -704,7 +703,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf97904bc6dc84844b1e026acc7e384d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 1284144222}
   targetTag: Sagrada
 --- !u!1 &1262038293
 GameObject:
@@ -880,8 +878,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 224.1, y: 114.8}
-  m_SizeDelta: {x: 334.07, y: 38.03}
+  m_AnchoredPosition: {x: 342.46, y: 114.8}
+  m_SizeDelta: {x: 97.34, y: 38.03}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1284144222
 MonoBehaviour:
@@ -1249,8 +1247,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -269.36002, y: -1.220005}
-  m_SizeDelta: {x: 185.12, y: 128.39}
+  m_AnchoredPosition: {x: -40.3, y: 35.425}
+  m_SizeDelta: {x: 166.43, y: 108.88}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1802141148
 MonoBehaviour:
@@ -1302,7 +1300,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf97904bc6dc84844b1e026acc7e384d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 1938807963}
   targetTag: Montserrat
 --- !u!1 &1938807961
 GameObject:
@@ -1342,8 +1339,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 228.07, y: 0}
-  m_SizeDelta: {x: 334.07, y: 38.03}
+  m_AnchoredPosition: {x: 342.27, y: 0}
+  m_SizeDelta: {x: 105.68, y: 38.03}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1938807963
 MonoBehaviour:
@@ -1627,8 +1624,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 228.07, y: -104.7}
-  m_SizeDelta: {x: 334.07, y: 38.03}
+  m_AnchoredPosition: {x: 358.1, y: -104.7}
+  m_SizeDelta: {x: 74, y: 38.03}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2077878763
 MonoBehaviour:
