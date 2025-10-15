@@ -856,7 +856,7 @@ GameObject:
   - component: {fileID: 1284144225}
   m_Layer: 5
   m_Name: Button
-  m_TagString: Untagged
+  m_TagString: Respawn
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1317,7 +1317,7 @@ GameObject:
   - component: {fileID: 1938807967}
   m_Layer: 5
   m_Name: Button (1)
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1339,7 +1339,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 224.10007, y: 19.015}
+  m_AnchoredPosition: {x: 228.07, y: 0}
   m_SizeDelta: {x: 334.07, y: 38.03}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1938807963
@@ -1602,7 +1602,7 @@ GameObject:
   - component: {fileID: 2077878767}
   m_Layer: 5
   m_Name: Button (2)
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
