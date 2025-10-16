@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Project/Scenes/QuestionGame.unity
     guid: bb855cc8c2aac8140b98fcf81bdce3a6
+  - enabled: 1
+    path: Assets/Project/Scenes/FoodGame.unity
+    guid: 3a54f482707a314429b0454476fce1e5
+  - enabled: 1
+    path: Assets/Project/Scenes/minijuego 2.unity
+    guid: 8db43806c6ae62549b138b9528bf7536
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
